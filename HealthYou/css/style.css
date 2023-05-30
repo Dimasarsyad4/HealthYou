@@ -1,0 +1,410 @@
+@import url('https://fonts.googleapis.com/css2?family=Gotu&family=Libre+Bodoni&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Forum&family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Forum&family=Work+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant&display=swap');
+
+
+
+body{
+    line-height: 1.8;
+    font-size: 15px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+h2,h3,h4,h5,h6 {
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: black;
+}
+
+.title-webinar {
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    justify-content: center;
+}
+
+
+a {
+    font-weight: 700;
+    transition: all 0.4s ease;
+    text-decoration: none;  
+}
+
+section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.bg-cover {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed ;
+}
+
+.hero-section {
+    min-height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    padding: 14px 22px;
+    transition: all 0.4s ease;
+}
+
+.btn-main {
+    border-radius: 100px;
+}
+
+.btn:hover {
+    transform: translateY(-4px);
+}
+
+.navbar {
+    font-family: 'Gotu', sans-serif;
+    border-bottom: 1px solid #ead9e7;
+}
+
+.logo-text {
+    font-family: 'Gotu', sans-serif;
+    font-size: 35px;
+    color: #2f51b0 !important;
+}
+
+.navbar .nav-link {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.nav-item .nav-link > .active {
+    color: #f26ed1;
+}
+.nav-item a:hover {
+    color: #f5a69f !important;
+}
+
+.bg-light {
+    background-color: #ede8e7 !important;
+}
+
+#Home .col-12 h1 {
+    font-family: 'Forum', cursive;
+    text-shadow: 3px 2px 1px grey;
+    color: white;
+}
+
+#Home .col-12 p {
+    background: #e9d1d3;
+    opacity: 0.6;
+}
+
+/*Healthy Webinar Form*/
+main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: #C4AA97
+}
+
+form {
+    width: 400px;
+    border: solid 1px #EBEBEB;
+    padding: 1rem;
+    font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.form-user {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-color: #C4AA97;
+}
+
+button {
+    margin-top: 2rem;
+    background-color: #C4AA97;
+    width: 90px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.input-field {
+justify-content: left;
+max-width: 380px;
+width: 85%;
+height: 39px;
+border-radius: 45px;
+}
+.card:hover{
+    transform: translateY(-15px);
+    transition: transform .3s;
+}
+ 
+
+.regis {
+    background: #F4D3DF;
+}
+
+.regis:hover{
+    opacity: .8;
+}
+
+.cursor{
+    cursor:pointer;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.card-Healthy-W:hover {
+    transform: translateY(-15px);
+    transition: transform .5s;
+}
+
+.form-user .container {
+    background: #d8e2eb; 
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+p .desc-webinar {
+    font-family: 'Work Sans', sans-serif;
+    justify-content: left;
+    background-color: #d8e2eb;
+}
+
+/*Healthy Recipe*/
+#Healthy-Recipe .col-12 h1 {
+    font-family: 'Forum', cursive;
+    color: black;
+}
+
+.section-intro {
+    margin-bottom: 40px;
+}
+
+.section-intro .divider {
+    height: 2px;
+    margin: 0px 400px 5px;
+    background: #2f51b0;
+}
+
+.card {
+    border-radius: 15% 15% 20px 20px;
+}
+
+.Healthy-Recipe img{
+    border-radius: 40% !important;
+    padding-bottom: 20px;
+}
+
+.card:hover {
+    transform: translateY(-15px);
+    transition: transform .3s;
+}
+
+.info {
+    line-height: 20px;
+}
+
+.avo-toast {
+    background: #bddbec;
+}
+
+.cookie {
+    background: #e9d1d3;
+}
+
+.chicken{
+    background: #bddbec;
+}
+
+
+/*Healthy Living*/
+#Healthy-Living {
+    background: #e9d1d3;
+}
+
+#Healthy-Living .card-img-top{
+    border-top-left-radius: calc(2.25rem - 0px);
+    border-top-right-radius: calc(2.25rem - 1px);
+}
+
+#Healthy-Living a{
+    text-decoration: none !important;  
+    color: black;
+    font-weight: 100;
+}
+
+#Healthy-Living .col-12 h1 {
+    font-family: 'Forum', cursive;
+    color: black;
+}
+
+/*Healthy Workout*/
+#Healthy-Workout {
+    background: #e9d1d3;
+}
+
+#Healthy-Workout .card-img-top{
+    border-top-left-radius: calc(2.25rem - 0px);
+    border-top-right-radius: calc(2.25rem - 1px);
+}
+
+#Healthy-Workout a{
+    text-decoration: none !important;  
+    color: black;
+    font-weight: 100;
+}
+
+#Healthy-Workout .col-12 h1 {
+    font-family: 'Forum', cursive;
+    color: black;
+}
+
+/*About us*/
+.About-Us-section {
+    min-height: 45vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#About-Us .col-12 h1 {
+    color: whitesmoke;
+    font-family: 'Cormorant', serif;
+    font-size: 55px;
+}
+
+#About-Us p {
+    color: whitesmoke;
+    font-size: 20px;
+    padding: 0 25px;
+}
+
+#About-Us .Our-Team h1{
+    color: #2f51b0;
+    font-family: 'Cormorant', serif;
+    font-size: 55px;
+}
+
+#About-Us .col img {
+    max-width: 30vh;
+    padding: 10px 0px ;
+    border-radius: 50%;
+}
+
+#About-Us .col p {
+    color: #2f51b0 !important;
+    font-family: 'Cormorant', serif;
+    font-size: 25px;
+}
+
+#About-Us p.nama {
+    margin: 0% !important;
+}
+
+#About-Us .col .card-text {
+    font-size: 17px;
+    font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 1px 1px;
+    color: #253a75;
+}
+
+#Recipe .contain {
+    text-align: justify;
+}
+
+/*Webinar Healthy*/
+#Healthy-Webinar .col-12 h1 {
+    font-family: 'Forum', cursive;
+    color: black;
+}
+.Healthy-Webinar img{
+    border-radius: 40% !important;
+    padding-bottom: 20px;
+}
+
+/*Heathy-Webinar*/
+.inner {
+    overflow: hidden;
+}
+
+.inner img {
+    transition: all 1.5s ease;
+    border-top-left-radius:120px ;
+    border-top-right-radius: 120px;
+}
+
+.inner:hover img {
+    transform: scale(1.3);
+} 
+
+.card-Healthy-W {
+    border: none;
+    outline: none;
+    background-color: #DEEBE5;
+    border-top-left-radius: 120px;
+    border-top-right-radius: 120px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.card:hover{
+    transform: translateY(-15px);
+    transition: transform .3s;
+}
+ 
+
+.regis {
+    background: #F4D3DF;
+}
+
+.regis:hover{
+    opacity: .8;
+}
+
+.cursor{
+    cursor:pointer;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.card-Healthy-W:hover {
+    transform: translateY(-15px);
+    transition: transform .5s;
+}
+
+.form-admin .container {
+    background: #d8e2eb; 
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.btn1{
+    border: none;
+    outline: none;
+    height: 50px;
+    width: 100%;
+    background-color: #C4AA97;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+.btn1:hover{
+    background-color: whitesmoke;
+    color: #C4AA97;
+    border: 1px solid;
+    color: #C4AA97;
+}
+
+.title-adm h1{
+    font-family: 'Forum', cursive;
+}
